@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Browser</title>
+  <style>
+    h1 {
+      font-family: Arial, sans-serif;
+      color: lighter;
+      font-size: 50px;
+      text-align: left;
+    }
+
+    text {
+      color: black;
+      font-size: 18px;
+      text-align: left;
+    }
+
+    .image-container {
+      float: right;
+      margin-left: 20px; 
+    }
+
+    .image-container img {
+      width: 150px; 
+      height: auto; 
+    }
+
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="clearfix">
+    <div class="image-container">
+      <img src="https://th.bing.com/th/id/OIP.qhfbCR5hjpIHFGzcK1aR-QHaHa?rs=1&pid=ImgDetMain" alt="Giraffe">
+    </div>
+    <h1>
+      Dan Axel Torren
+    </h1>
+    <p>
+      Global Reciprocal Colleges
+    </p>
+    <h1>
+      About me
+    </h1>
+    <div class="image-container">
+      <img src="https://th.bing.com/th/id/OIP.qhfbCR5hjpIHFGzcK1aR-QHaHa?rs=1&pid=ImgDetMain" alt="Giraffe">
+    </div>
+    <p>
+	    3rd-year BSIT student at Global Reciprocal Colleges
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
